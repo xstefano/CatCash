@@ -9,8 +9,8 @@ public class PlayerMovement : MonoBehaviour
     private Animator anim;
 
     private float dirX = 0f;
-    private float moveSpeed = 5.0f;
-    private float jumpForce = 4.5f ;
+    private float moveSpeed = 3.7f;
+    private float jumpForce = 5f ;
 
     // Start is called before the first frame update
     private void Start()
