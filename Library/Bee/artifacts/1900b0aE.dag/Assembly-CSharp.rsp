@@ -402,6 +402,7 @@
 "Assets/Package/Cainos/Third Party/Lucid Editor/Runtime/Attributes/ValidateInputAttribute.cs"
 "Assets/Package/Cainos/Third Party/Lucid Editor/Runtime/Enum.cs"
 "Assets/Package/Cainos/Third Party/Lucid Editor/Runtime/PropertyGroupAttribute.cs"
+"Assets/Scripts/ItemCollector.cs"
 "Assets/Scripts/PlayerMovement.cs"
 -langversion:9.0
 
