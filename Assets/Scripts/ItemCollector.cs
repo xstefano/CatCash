@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,7 +7,7 @@ public class ItemCollector : MonoBehaviour
 {
     private int fishes = 0;
 
-    [SerializeField] private TextMeshProUGUI fishesText;
+    [SerializeField] private Text fishesText;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -17,7 +16,7 @@ public class ItemCollector : MonoBehaviour
         {
             Destroy(collision.gameObject);
             fishes++;
-            fishesText.text = $"Pescados: {fishes}";
+            fishesText.text = $"Pescados : {fishes}";
         }
     }
 }
