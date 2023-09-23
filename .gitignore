@@ -1,4 +1,6 @@
 /Library/PackageCache/
+/Library/ShaderCache/
+/Library/StateCache/
 
 /[Tt]emp/
 /[Oo]bj/

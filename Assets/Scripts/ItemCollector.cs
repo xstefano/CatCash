@@ -12,6 +12,7 @@ public class ItemCollector : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //prueba
         if (collision.gameObject.CompareTag("Fish"))
         {
             Destroy(collision.gameObject);
