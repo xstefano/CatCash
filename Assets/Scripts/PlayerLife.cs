@@ -1,25 +1,35 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerLife : MonoBehaviour
 {
     private Animator anim;
-
+    private int lifes = 5;
+    [SerializeField] private Text vidaText;
 
     private void Start()
     {
         anim = GetComponent<Animator>();
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    //private void OnCollisionEnter2D(Collision2D collision)
+    //{
+    //    if (collision.gameObject.CompareTag("Trap"))
+    //    {
+    //        Die();
+    //    }
+    //}
+    public void restarVida()
     {
-        if (collision.gameObject.CompareTag("Trap"))
+        if (lifes>=1)
         {
-            Die();
+            lifes--;
+            vidaText.text = lifes.ToString();
         }
+        
     }
-
     private void Die()
     {
         anim.SetTrigger("death");

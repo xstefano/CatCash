@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.U2D;
@@ -31,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         dirX = Input.GetAxis("Horizontal");
+
         rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
