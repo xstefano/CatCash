@@ -12,6 +12,7 @@ public class ItemCollector : MonoBehaviour
     private Rigidbody2D rb;
     private int fishes = 0;
     [SerializeField] private Text fishesText;
+    [SerializeField] private AudioSource collectionSoundEffect;
     private PlayerLife playerLife;
     private void Start()
     {
@@ -71,6 +72,7 @@ public class ItemCollector : MonoBehaviour
         
         if (collision.gameObject.CompareTag("Fish"))
         {
+            collectionSoundEffect.Play();
             Destroy(collision.gameObject);
             fishes++;
             fishesText.text = $"Pescados : {fishes}";
