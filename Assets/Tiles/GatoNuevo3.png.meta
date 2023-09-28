@@ -1,0 +1,1311 @@
+fileFormatVersion: 2
+guid: ab7d9786772814b4583f2cd52b6076dc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GatoNuevo3_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 279
+        width: 21
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986d87d4e309c4149884da4a43f36d67
+      internalID: -398893510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 279
+        width: 21
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9045138e50f5e994b88c67d21dcf3e6f
+      internalID: 1204447022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 279
+        width: 22
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fba7e784461ffd45a5bbb787f9f2bde
+      internalID: 1455676726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_3
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 279
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f7b2d0f37d0a741a6a1f94c98df675
+      internalID: 1885702794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_4
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 279
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15196864c2f4b3548a147b270af96fdc
+      internalID: -1765843983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_5
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 279
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2619f76bc3ef049844aa1020aee9ab
+      internalID: 6044254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_6
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 279
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956e213062c609a40af627bc602ff4b9
+      internalID: -1059912387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_7
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 279
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b567bfd1602424ba297761361f0d5a
+      internalID: 2014069035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_8
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 279
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca2f49b2113cc740a81ac454cb0f377
+      internalID: 49331352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_9
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 279
+        width: 26
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3eddf57e55eb784291fb30aba4621f5
+      internalID: -1227659916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_10
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 279
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972d24ab2b3d7e240bf25bf76ea9b093
+      internalID: 2062714169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_11
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 279
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51835e31c22de44d9359ea26acf2181
+      internalID: 1146556712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_12
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 245
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18e9ff893dd1bd4dab74d6dc67a47c1
+      internalID: 268899946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_13
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 245
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d32eb9322a35c34fbca656d7942ebf4
+      internalID: -1349309503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_14
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 245
+        width: 94
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e601498b9cbe47848beca48ca96952a4
+      internalID: 1917945077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_15
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 245
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5912d4832b1a942a51c1ca0c037f53
+      internalID: 2013202263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_16
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 245
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a33d2c5fb298c44593a2d62597dbf40
+      internalID: -1606601370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_17
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 203
+        width: 72
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3f4eb9844ab0842b89f46556432674
+      internalID: -799650539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_18
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 203
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdb93be260222a46ab481dd76ce85a2
+      internalID: -1948770523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_19
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 203
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08d9dfa2c9c4ad45aafe05753e0d9fb
+      internalID: 1614517240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_20
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 207
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96299285f6f420a4084b717fb0f39f42
+      internalID: 785002817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_21
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 203
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa23bb593d6de24989901f9ed616328
+      internalID: 490800314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_22
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 136
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f002e62e22255d49835908ca7049e9b
+      internalID: -564491852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_23
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 136
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b209972765267f48aa59bfd3c90e233
+      internalID: 1806524388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 136
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc229d73ebc921e4487a082937968255
+      internalID: 1438789013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_25
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 136
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857113ddddc5ca24d9971fc320c92911
+      internalID: 1411007310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_26
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 136
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf30545cb439d544a1882abcd23a36f
+      internalID: 1556853242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_27
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 136
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7283c9f7c8a5a1244bc31735f88dff1a
+      internalID: 1440187836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_28
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 137
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070c9951f695f8d438bd7a4cbff0398f
+      internalID: -1211472405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_29
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 136
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a16f461dd59a44989cf80ccadb6383
+      internalID: 901020148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_30
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 136
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baaa5ba8904bcf24ca2b6c5c2fd3de75
+      internalID: 1719395496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_31
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 136
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ecdfbcb944f014c9d99cfd67e997d7
+      internalID: 1460555128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_32
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 136
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fad7c08af9c06b43b1cebd6d1fc2903
+      internalID: 1413717675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_33
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 136
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c408e4c8076124190eb033b5ca062b
+      internalID: -2047772520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_34
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 72
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9463d6a586ad4648b1cf7247504f634
+      internalID: -1031397408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_35
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 72
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91739f7a25ddce34bb42f5f53eba6a01
+      internalID: -1628515661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_36
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 72
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbaf14eafad41824cb1861311fe36413
+      internalID: 1689947981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_37
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 72
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aec0ee8bd0f45a43b71a770f08a8649
+      internalID: -820610184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_38
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 72
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d9e4e2653061844b330a3335f2409f
+      internalID: 548574454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_39
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 72
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc16b54a796623478cc372682c46dcd
+      internalID: -1753221308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_40
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 72
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa13f59242723764ab3d091a0c1be6d7
+      internalID: -1435073244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_41
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 72
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8f90273bde8fd48ad6c1a884e360c7
+      internalID: -1625452424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_42
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 72
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923a5b242adb4c94b9a8944537608041
+      internalID: -1303736605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_43
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 72
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd88a274a29af54aa1aceff0a29635a
+      internalID: 138967500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_44
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 6
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86bc980d2f528bd4982a598664658873
+      internalID: 1068460665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_45
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 6
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f66feabba18d02408d806da36a001f4
+      internalID: 69452208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_46
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 6
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9415d6430bc21394d9724aba96be32df
+      internalID: -1839705275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_47
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 6
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad67e455387ff846be65076d918eac7
+      internalID: 1992881914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_48
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 6
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2fef51800cab941a0ca47a60d4f9a8
+      internalID: 1543831613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_49
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 6
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767c7222c9008074d859713045323c5d
+      internalID: 1657233194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_50
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 6
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e0245b6dc9d0241913942971f6ed03
+      internalID: -2070066099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_51
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 4
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb8577b736edf84a8926d772ccd00b6
+      internalID: -748489628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_52
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 4
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78263277fe04dc46aec53f74cc1a747
+      internalID: -1423360645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoNuevo3_53
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 4
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a586ed1700fe74fb11649ca85d05e7
+      internalID: 1191238572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      GatoNuevo3_0: -398893510
+      GatoNuevo3_1: 1204447022
+      GatoNuevo3_10: 2062714169
+      GatoNuevo3_11: 1146556712
+      GatoNuevo3_12: 268899946
+      GatoNuevo3_13: -1349309503
+      GatoNuevo3_14: 1917945077
+      GatoNuevo3_15: 2013202263
+      GatoNuevo3_16: -1606601370
+      GatoNuevo3_17: -799650539
+      GatoNuevo3_18: -1948770523
+      GatoNuevo3_19: 1614517240
+      GatoNuevo3_2: 1455676726
+      GatoNuevo3_20: 785002817
+      GatoNuevo3_21: 490800314
+      GatoNuevo3_22: -564491852
+      GatoNuevo3_23: 1806524388
+      GatoNuevo3_24: 1438789013
+      GatoNuevo3_25: 1411007310
+      GatoNuevo3_26: 1556853242
+      GatoNuevo3_27: 1440187836
+      GatoNuevo3_28: -1211472405
+      GatoNuevo3_29: 901020148
+      GatoNuevo3_3: 1885702794
+      GatoNuevo3_30: 1719395496
+      GatoNuevo3_31: 1460555128
+      GatoNuevo3_32: 1413717675
+      GatoNuevo3_33: -2047772520
+      GatoNuevo3_34: -1031397408
+      GatoNuevo3_35: -1628515661
+      GatoNuevo3_36: 1689947981
+      GatoNuevo3_37: -820610184
+      GatoNuevo3_38: 548574454
+      GatoNuevo3_39: -1753221308
+      GatoNuevo3_4: -1765843983
+      GatoNuevo3_40: -1435073244
+      GatoNuevo3_41: -1625452424
+      GatoNuevo3_42: -1303736605
+      GatoNuevo3_43: 138967500
+      GatoNuevo3_44: 1068460665
+      GatoNuevo3_45: 69452208
+      GatoNuevo3_46: -1839705275
+      GatoNuevo3_47: 1992881914
+      GatoNuevo3_48: 1543831613
+      GatoNuevo3_49: 1657233194
+      GatoNuevo3_5: 6044254
+      GatoNuevo3_50: -2070066099
+      GatoNuevo3_51: -748489628
+      GatoNuevo3_52: -1423360645
+      GatoNuevo3_53: 1191238572
+      GatoNuevo3_6: -1059912387
+      GatoNuevo3_7: 2014069035
+      GatoNuevo3_8: 49331352
+      GatoNuevo3_9: -1227659916
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
