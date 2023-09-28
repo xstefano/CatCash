@@ -45,6 +45,12 @@ public class ItemCollector : MonoBehaviour
                 collisionHandledTrap = true;
             }
 
+            else if (col.gameObject.CompareTag("Abismo"))
+            {
+                playerLife.restarVida();
+                transform.position = new Vector3(-0.5f, -0.29f, 0f);
+            }
+
         }
 
     }
