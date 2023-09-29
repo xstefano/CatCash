@@ -7,6 +7,7 @@ TagManager:
   - Fish
   - Trap
   - Maquina
+  - Abismo
   layers:
   - Default
   - TransparentFX

@@ -12,6 +12,7 @@ public class ItemCollector : MonoBehaviour
     private Rigidbody2D rb;
     private int fishes = 0;
     [SerializeField] private Text fishesText;
+    [SerializeField] private AudioSource collectionSoundEffect;
     private PlayerLife playerLife;
     private void Start()
     {
@@ -21,7 +22,7 @@ public class ItemCollector : MonoBehaviour
     private void Update()
     {
 
-        //Realiza una verificación de colisión en cada fotograma
+        //Realiza una verificaciï¿½n de colisiï¿½n en cada fotograma
         Collider2D collider = GetComponent<Collider2D>();
         Collider2D[] colliders = Physics2D.OverlapBoxAll(collider.bounds.center, collider.bounds.size, 0f);
         foreach (Collider2D col in colliders)
@@ -30,7 +31,7 @@ public class ItemCollector : MonoBehaviour
             {
                 SpriteRenderer spriteRenderer = col.gameObject.GetComponent<SpriteRenderer>();
                 string spriteName = spriteRenderer.sprite.name;
-                // Realiza acciones basadas en la colisión, por ejemplo:
+                // Realiza acciones basadas en la colisiï¿½n, por ejemplo:
                 if (spriteName == "On (16x32)_0" || spriteName == "On (16x32)_1" || spriteName == "On (16x32)_2")
                 {
                     rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
@@ -44,6 +45,11 @@ public class ItemCollector : MonoBehaviour
                 collisionHandledTrap = true;
             }
 
+            else if (col.gameObject.CompareTag("Abismo"))
+            {
+                playerLife.restarVida();
+                transform.position = new Vector3(-0.5f,-0.29f,0f); 
+            }
         }
 
     }
@@ -68,9 +74,11 @@ public class ItemCollector : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+       
+
         if (collision.gameObject.CompareTag("Fish"))
         {
+            collectionSoundEffect.Play();
             Destroy(collision.gameObject);
             fishes++;
             fishesText.text = $"Pescados : {fishes}";

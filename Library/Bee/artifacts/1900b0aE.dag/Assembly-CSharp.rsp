@@ -403,6 +403,7 @@
 "Assets/Package/Cainos/Third Party/Lucid Editor/Runtime/Enum.cs"
 "Assets/Package/Cainos/Third Party/Lucid Editor/Runtime/PropertyGroupAttribute.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/GameOver.cs"
 "Assets/Scripts/ItemCollector.cs"
 "Assets/Scripts/PlayerLife.cs"
 "Assets/Scripts/PlayerMovement.cs"
