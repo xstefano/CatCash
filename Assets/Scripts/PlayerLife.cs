@@ -16,7 +16,6 @@ public class PlayerLife : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
-<<<<<<< HEAD
     public void restarVida()
     {
         if (lifes >= 1)
@@ -27,23 +26,10 @@ public class PlayerLife : MonoBehaviour
         Die();
     }
         
-=======
-    public void restarVida()
-    {
-        if (lifes >= 1)
-        {
-            lifes--;
-            vidaText.text = lifes.ToString();
-        }
-        Die();
-    }
-        
->>>>>>> main
     private void Die()
     {
         deathSoundEffect.Play();
         anim.SetBool("death", true);
-<<<<<<< HEAD
         if (lifes > 0)
         {
             StartCoroutine(WaitForDeathAnimation());
@@ -52,28 +38,13 @@ public class PlayerLife : MonoBehaviour
         {
             //StartCoroutine(WaitForDeathFinal());
             SceneManager.LoadScene("GameOver");
-=======
-        if (lifes > 0)
-        {
-            StartCoroutine(WaitForDeathAnimation());
-        }
-        else
-        {
-            StartCoroutine(WaitForDeathFinal());
->>>>>>> main
         }
     }
 
     IEnumerator WaitForDeathAnimation()
-<<<<<<< HEAD
     {
         yield return new WaitForSeconds(anim.GetCurrentAnimatorStateInfo(0).length);
         anim.SetBool("death", false);
-=======
-    {
-        yield return new WaitForSeconds(anim.GetCurrentAnimatorStateInfo(0).length);
-        anim.SetBool("death", false);
->>>>>>> main
         anim.SetInteger("state", 0);
     }
 

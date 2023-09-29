@@ -1604,11 +1604,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
   m_AnchoredPosition: {x: 442.07, y: 193.58}
-=======
-  m_AnchoredPosition: {x: 492.5, y: 247}
->>>>>>> main
   m_SizeDelta: {x: 88.7319, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &411992422
@@ -2798,10 +2794,7 @@ GameObject:
   - component: {fileID: 750272666}
   - component: {fileID: 750272667}
   - component: {fileID: 750272668}
-<<<<<<< HEAD
   - component: {fileID: 750272669}
-=======
->>>>>>> main
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -2988,10 +2981,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaText: {fileID: 411992422}
-<<<<<<< HEAD
   deathSoundEffect: {fileID: 750272669}
-=======
->>>>>>> main
 --- !u!82 &750272667
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3184,7 +3174,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-<<<<<<< HEAD
 --- !u!82 &750272669
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3281,8 +3270,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-=======
->>>>>>> main
 --- !u!1 &804407257
 GameObject:
   m_ObjectHideFlags: 0
@@ -16281,11 +16268,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
   m_AnchoredPosition: {x: 373, y: 202.54}
-=======
-  m_AnchoredPosition: {x: 412.9, y: 247}
->>>>>>> main
   m_SizeDelta: {x: 49.409, y: 47.921}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1669486233
