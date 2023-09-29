@@ -8,6 +8,8 @@ TagManager:
   - Trap
   - Maquina
   - Abismo
+  - Ave
+  - Dog
   layers:
   - Default
   - TransparentFX
