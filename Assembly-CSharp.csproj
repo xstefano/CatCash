@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FB7E0EB5-81D1-7FEC-465A-123E20FCFEE6}</ProjectGuid>
+    <ProjectGuid>{ADC3563A-B560-B18E-0F69-0B6ADFA4B29D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,49 +53,13 @@
     <UnityVersion>2021.3.29f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\GUIColorAttribute.cs" />
-    <Compile Include="Assets\Scripts\StartMenu.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\TitleHeaderAttribute.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Enum.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HideIfAttribute.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\ButtonAttribute.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\OnValueChangedAttribute.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\ShowInInspectorAttribute.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\AssetsOnlyAttribute.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\GroupAttribute.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\TabGroupAttribute.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\EnableIfAttribute.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\BoxGroupAttribute.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\PropertyGroupAttribute.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\ValidateInputAttribute.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HideMonoScript.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HorizontalGroupAttribute.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\IndentAttribute.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\PropertyOrderAttribute.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HorizontalLineAttribute.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HelpBoxIfAttribute.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\DisableIfAttribute.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\LabelTextAttribute.cs" />
-    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\ReadOnlyAttribute.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\DisableInPlayModeAttribute.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\ShowIfAttribute.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\LabelWidthAttribute.cs" />
-    <Compile Include="Assets\Scripts\ItemCollector.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\BlockquoteAttribute.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HideLabelAttribute.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\SectionHeaderAttribute.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\DisableInEditModeAttribute.cs" />
-    <Compile Include="Assets\Scripts\PlayerLife.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HelpBoxAttribute.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\RequiredAttribute.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\FoldoutGroupAttribute.cs" />
-    <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\DisableLucidEditorAttribute.cs" />
+    <Compile Include="Assets\Scripts\Dog.cs" />
     <Compile Include="Assets\Scripts\GameOver.cs" />
+    <Compile Include="Assets\Scripts\Ave.cs" />
+    <Compile Include="Assets\Scripts\ItemCollector.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Package\Cainos\Third Party\Lucid Editor\License.txt" />
