@@ -21,7 +21,7 @@ public class PlayerLife : MonoBehaviour
         if (lifes >= 1)
         {
             lifes--;
-            vidaText.text = lifes.ToString();
+            vidaText.text = $"x{lifes.ToString()} ";
         }
         Die();
     }

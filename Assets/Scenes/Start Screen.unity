@@ -161,8 +161,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -234.62, y: -50}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -466.45, y: -352}
+  m_SizeDelta: {x: 427.35, y: 73.8412}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &59975167
 MonoBehaviour:
@@ -414,7 +414,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e331846360b4af44ebda40f4a01d3fd3, type: 3}
-    m_FontSize: 20
+    m_FontSize: 36
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 2
@@ -469,8 +469,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -234.62, y: 148}
-  m_SizeDelta: {x: 434.1537, y: 113.366}
+  m_AnchoredPosition: {x: -485.71478, y: 214}
+  m_SizeDelta: {x: 867.2061, y: 195.43}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &926864175
 MonoBehaviour:
@@ -494,11 +494,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e331846360b4af44ebda40f4a01d3fd3, type: 3}
-    m_FontSize: 45
+    m_FontSize: 90
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 50
+    m_MaxSize: 90
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -650,8 +650,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -224.81, y: 41.317}
-  m_SizeDelta: {x: 140.38, y: 131.1474}
+  m_AnchoredPosition: {x: -466.4521, y: -88.29578}
+  m_SizeDelta: {x: 427.3519, y: 369.6035}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1583024221
 MonoBehaviour:
@@ -794,8 +794,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 228.23, y: 0}
-  m_SizeDelta: {x: 491.54, y: 453}
+  m_AnchoredPosition: {x: 487.37012, y: -0.00032043}
+  m_SizeDelta: {x: 945.2662, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2003690555
 MonoBehaviour:
