@@ -134,7 +134,6 @@ GameObject:
   - component: {fileID: 119753735}
   - component: {fileID: 119753734}
   - component: {fileID: 119753733}
-  - component: {fileID: 119753732}
   m_Layer: 0
   m_Name: Fish (5)
   m_TagString: Fish
@@ -142,20 +141,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &119753732
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119753731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b19d6ae4129e741488cdf2501042842d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fishesText: {fileID: 0}
-  collectionSoundEffect: {fileID: 0}
 --- !u!61 &119753733
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -536,7 +521,6 @@ GameObject:
   - component: {fileID: 207025510}
   - component: {fileID: 207025509}
   - component: {fileID: 207025508}
-  - component: {fileID: 207025507}
   m_Layer: 0
   m_Name: Fish (1)
   m_TagString: Fish
@@ -544,20 +528,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &207025507
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 207025506}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b19d6ae4129e741488cdf2501042842d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fishesText: {fileID: 0}
-  collectionSoundEffect: {fileID: 0}
 --- !u!61 &207025508
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1453,7 +1423,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 442.07, y: 193.58}
+  m_AnchoredPosition: {x: 785, y: 492}
   m_SizeDelta: {x: 88.7319, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &411992422
@@ -1489,7 +1459,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: x5
+  m_Text: :5
 --- !u!222 &411992423
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2510,7 +2480,6 @@ GameObject:
   - component: {fileID: 671856725}
   - component: {fileID: 671856724}
   - component: {fileID: 671856723}
-  - component: {fileID: 671856722}
   m_Layer: 0
   m_Name: Fish (3)
   m_TagString: Fish
@@ -2518,20 +2487,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &671856722
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 671856721}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b19d6ae4129e741488cdf2501042842d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fishesText: {fileID: 0}
-  collectionSoundEffect: {fileID: 0}
 --- !u!61 &671856723
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3655,7 +3610,6 @@ GameObject:
   - component: {fileID: 1131388987}
   - component: {fileID: 1131388986}
   - component: {fileID: 1131388985}
-  - component: {fileID: 1131388984}
   m_Layer: 0
   m_Name: Fish (4)
   m_TagString: Fish
@@ -3663,20 +3617,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1131388984
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1131388983}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b19d6ae4129e741488cdf2501042842d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fishesText: {fileID: 0}
-  collectionSoundEffect: {fileID: 0}
 --- !u!61 &1131388985
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15904,7 +15844,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -261.87, y: 184}
+  m_AnchoredPosition: {x: -684, y: 495}
   m_SizeDelta: {x: 424.2694, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1650657863
@@ -15984,7 +15924,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 373, y: 202.54}
+  m_AnchoredPosition: {x: 696, y: 493}
   m_SizeDelta: {x: 49.409, y: 47.921}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1669486233
@@ -17355,7 +17295,6 @@ GameObject:
   - component: {fileID: 2073627992}
   - component: {fileID: 2073627991}
   - component: {fileID: 2073627990}
-  - component: {fileID: 2073627989}
   m_Layer: 0
   m_Name: Fish (2)
   m_TagString: Fish
@@ -17363,20 +17302,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2073627989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2073627988}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b19d6ae4129e741488cdf2501042842d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fishesText: {fileID: 0}
-  collectionSoundEffect: {fileID: 0}
 --- !u!61 &2073627990
 BoxCollider2D:
   m_ObjectHideFlags: 0
