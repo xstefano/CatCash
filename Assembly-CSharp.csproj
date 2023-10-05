@@ -56,12 +56,6 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <Compile Include="Assets\Scripts\Dog.cs" />
-    <Compile Include="Assets\Scripts\GameOver.cs" />
-    <Compile Include="Assets\Scripts\Ave.cs" />
-    <Compile Include="Assets\Scripts\ItemCollector.cs" />
-=======
     <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\GUIColorAttribute.cs" />
     <Compile Include="Assets\Scripts\Dog.cs" />
     <Compile Include="Assets\Scripts\StartMenu.cs" />
@@ -104,12 +98,15 @@
     <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\RequiredAttribute.cs" />
     <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\FoldoutGroupAttribute.cs" />
     <Compile Include="Assets\Package\Cainos\Third Party\Lucid Editor\Runtime\Attributes\DisableLucidEditorAttribute.cs" />
->>>>>>> 1b043c41288cd05a4c848b900e3a83ce2bcfbc5b
+    <Compile Include="Assets\VoxelAnimals\Assets\Scripts\PlayerController.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Cainos\Pixel Art Icon Pack - RPG\Shader\SH UI Icon Outline Color.shader" />
     <None Include="Assets\Package\Cainos\Third Party\Lucid Editor\License.txt" />
+    <None Include="Assets\Cainos\Pixel Art Icon Pack - RPG\Shader\SH Sprite Icon Outline Color.shader" />
     <None Include="Assets\Package\Cainos\Pixel Art Platformer - Village Props\Changelog.txt" />
     <None Include="Assets\Package\CasualGameBGM05\ReadMe.txt" />
+    <None Include="Assets\VoxelAnimals\Documentation\ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

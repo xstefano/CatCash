@@ -11,7 +11,13 @@ public class ItemCollector : MonoBehaviour
     private float moveSpeed = 3.7f;
     private Rigidbody2D rb;
     private int fishes = 0;
+
+    [SerializeField] private GameObject key;
+    [SerializeField] private GameObject map;
+    [SerializeField] private TextMesh message;
     [SerializeField] private Text fishesText;
+    [SerializeField] private Text keyText;
+    [SerializeField] private Text mapText;
     [SerializeField] private AudioSource collectionSoundEffect;
     private PlayerLife playerLife;
     private void Start()
@@ -74,7 +80,7 @@ public class ItemCollector : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-       
+
 
         if (collision.gameObject.CompareTag("Fish"))
         {
@@ -82,6 +88,36 @@ public class ItemCollector : MonoBehaviour
             Destroy(collision.gameObject);
             fishes++;
             fishesText.text = $"Pescados : {fishes}";
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Map"))
+        {
+            collectionSoundEffect.Play();
+            Destroy(collision.gameObject);
+            mapText.text = $":1";
+        }
+        else if (collision.gameObject.CompareTag("Key"))
+        {
+            collectionSoundEffect.Play();
+            Destroy(collision.gameObject);
+            keyText.text = $":1";
+        }
+        else if (collision.gameObject.CompareTag("Final"))
+        {
+            collectionSoundEffect.Play();
+            Destroy(collision.gameObject);
+            map.GetComponent<SpriteRenderer>().enabled = true;
+            key.GetComponent<SpriteRenderer>().enabled = true;
+            message.GetComponent<MeshRenderer>().enabled = true;
+
+            Rigidbody2D mapRigidbody = map.GetComponent<Rigidbody2D>();
+            Rigidbody2D keyRigidbody = key.GetComponent<Rigidbody2D>();
+
+            mapRigidbody.bodyType = RigidbodyType2D.Dynamic;
+            keyRigidbody.bodyType = RigidbodyType2D.Dynamic;
         }
     }
     //private void OnCollisionStay2D(Collision2D collision)
