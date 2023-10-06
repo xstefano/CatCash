@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ItemCollector : MonoBehaviour
 {
@@ -89,6 +90,8 @@ public class ItemCollector : MonoBehaviour
             fishes++;
             fishesText.text = $"Pescados : {fishes}";
         }
+
+       
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -118,6 +121,11 @@ public class ItemCollector : MonoBehaviour
 
             mapRigidbody.bodyType = RigidbodyType2D.Dynamic;
             keyRigidbody.bodyType = RigidbodyType2D.Dynamic;
+        }
+
+        else if (collision.gameObject.CompareTag("Entrada"))
+        {
+            SceneManager.LoadScene("Level2");
         }
     }
     //private void OnCollisionStay2D(Collision2D collision)
