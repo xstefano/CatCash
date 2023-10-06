@@ -7,6 +7,7 @@ public class ItemCollector : MonoBehaviour
 {
     private bool collisionHandled = false;
     private bool collisionHandledTrap = false;
+    private bool collisionHandledAve = false;
     private float dirX = -1f;
     private float moveSpeed = 3.7f;
     private Rigidbody2D rb;
@@ -56,6 +57,10 @@ public class ItemCollector : MonoBehaviour
                 playerLife.restarVida();
                 transform.position = new Vector3(-0.5f,-0.29f,0f); 
             }
+            else if (col.gameObject.CompareTag("Ave"))
+            {
+                collisionHandledAve = true;
+            }
         }
 
     }
@@ -75,6 +80,18 @@ public class ItemCollector : MonoBehaviour
             {
                 collisionHandledTrap = false;
                 playerLife.restarVida();
+                GetComponent<RespawnManager>().ReaparecerPersonajeTrap();
+            }
+        }
+        if (collision.gameObject.CompareTag("Ave"))
+        {
+            if (collisionHandledAve)
+            {
+                collisionHandledAve = false;
+                playerLife.restarVida();
+                GetComponent<RespawnManager>().ReaparecerPersonajeAve();
+
+
             }
         }
     }
@@ -88,6 +105,13 @@ public class ItemCollector : MonoBehaviour
             Destroy(collision.gameObject);
             fishes++;
             fishesText.text = $"Pescados : {fishes}";
+            
+            if(fishes == 20)
+            {
+                playerLife.aumentarVida();
+                fishes -= 20;
+                fishesText.text = $"Pescados : {fishes}";
+            }
         }
     }
 

@@ -14,6 +14,7 @@ TagManager:
   - Map
   - Final
   - DogMeta
+  - Ventilador
   layers:
   - Default
   - TransparentFX

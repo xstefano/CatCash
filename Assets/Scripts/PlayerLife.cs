@@ -25,6 +25,12 @@ public class PlayerLife : MonoBehaviour
         }
         Die();
     }
+
+    public void aumentarVida()
+    {
+        lifes++;
+        vidaText.text = $"x{lifes.ToString()} ";
+    }
         
     private void Die()
     {
