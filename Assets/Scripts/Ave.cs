@@ -8,6 +8,7 @@ public class Ave : MonoBehaviour
     private float limiteX1;
     private float limiteX2;
     private Vector2 direccion;
+    //prueba
     // Start is called before the first frame update
     void Start()
     {
