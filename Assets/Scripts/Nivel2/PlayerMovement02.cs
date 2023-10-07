@@ -5,7 +5,7 @@ using UnityEditor.U2D;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement02 : MonoBehaviour
 {
     private Rigidbody2D rb;
     private BoxCollider2D coll;
@@ -15,8 +15,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask jumpableGround;
 
     private float dirX = 0f;
-    private float moveSpeed = 3.7f;
-    private float jumpForce = 5f;
+    private float moveSpeed = 1.7f;
+    private float jumpForce = 3.3f;
 
     private enum MovementState { idle, running, jumping, falling }
 

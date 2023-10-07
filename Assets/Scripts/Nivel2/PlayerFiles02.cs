@@ -4,15 +4,17 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class PlayerLife : MonoBehaviour
+public class PlayerFiles02 : MonoBehaviour
 {
     public static Animator anim;
-    public int lifes = 5;
+    public int lifes ;
     [SerializeField] private Text vidaText;
     [SerializeField] private AudioSource deathSoundEffect;
 
     private void Start()
     {
+        lifes = PlayerPrefs.GetInt("Vidas");
+        vidaText.text = lifes.ToString();
         anim = GetComponent<Animator>();
     }
 

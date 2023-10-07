@@ -15,6 +15,7 @@ TagManager:
   - Final
   - DogMeta
   - Entrada
+  - Ventilador
   layers:
   - Default
   - TransparentFX

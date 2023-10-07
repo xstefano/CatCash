@@ -8,10 +8,11 @@ public class Ave : MonoBehaviour
     private float limiteX1;
     private float limiteX2;
     private Vector2 direccion;
+    private SpriteRenderer srAve;
     // Start is called before the first frame update
     void Start()
     {
-
+        srAve = GetComponent<SpriteRenderer>();
     }
     public void crear(float x, float y, float vel, bool der, float limx1, float limx2)
     {
@@ -31,13 +32,13 @@ public class Ave : MonoBehaviour
 
         if (transform.position.x > limiteX2 && direccion.x > 0)
         {
-
+            srAve.flipX = false;
             direccion.x = -direccion.x;
 
         }
         if (transform.position.x < limiteX1 && direccion.x < 0)
         {
-
+            srAve.flipX = true;
             direccion.x = -direccion.x;
 
         }

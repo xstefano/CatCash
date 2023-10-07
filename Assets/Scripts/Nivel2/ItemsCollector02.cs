@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class ItemCollector : MonoBehaviour
+public class ItemsCollector02 : MonoBehaviour
 {
     private bool collisionHandled = false;
     private bool collisionHandledTrap = false;
@@ -14,6 +14,7 @@ public class ItemCollector : MonoBehaviour
     private Rigidbody2D rb;
     private int fishes = 0;
 
+
     [SerializeField] private GameObject key;
     [SerializeField] private GameObject map;
     [SerializeField] private TextMesh message;
@@ -21,11 +22,19 @@ public class ItemCollector : MonoBehaviour
     [SerializeField] private Text keyText;
     [SerializeField] private Text mapText;
     [SerializeField] private AudioSource collectionSoundEffect;
-    private PlayerLife playerLife;
+    private PlayerFiles02 playerLife;
     private void Start()
     {
+        playerLife = GetComponent<PlayerFiles02>();
+        playerLife.lifes = PlayerPrefs.GetInt("Vidas");
+      //  lifesText.text = ": " + lifes.ToString();
+        fishes = PlayerPrefs.GetInt("pescados");
+        fishesText.text ="Pescado:  " + fishes.ToString();
+        Debug.Log(PlayerPrefs.GetInt("pescados"));
+        keyText.text = PlayerPrefs.GetString("Mapa");
+        mapText.text = PlayerPrefs.GetString("Llave");
         rb = GetComponent<Rigidbody2D>();
-        playerLife = GetComponent<PlayerLife>();
+      
     }
     private void Update()
     {
@@ -147,14 +156,14 @@ public class ItemCollector : MonoBehaviour
 
         else if (collision.gameObject.CompareTag("Entrada"))
         {
-            PlayerPrefs.SetInt("Vidas",playerLife.lifes);
-            PlayerPrefs.SetInt("pescados",fishes);
-            PlayerPrefs.SetString("Llave",keyText.text);
-            PlayerPrefs.SetString("Mapa",mapText.text);
+            PlayerPrefs.SetInt("Vidas", playerLife.lifes);
+            PlayerPrefs.SetInt("pescados", fishes);
+            PlayerPrefs.SetString("Llave", keyText.text);
+            PlayerPrefs.SetString("Mapa", mapText.text);
             SceneManager.LoadScene("Level2");
         }
 
-        
+
 
     }
     //private void OnCollisionStay2D(Collision2D collision)
