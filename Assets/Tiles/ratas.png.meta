@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 056c6646db9715641a468f025a0964f5
+guid: 6f183e6487e67d14b8b1cf55bdf3091f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RatonNuevo_0
+      name: ratas_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 259
-        width: 95
-        height: 92
+        x: 9
+        y: 289
+        width: 90
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4697aa2e1bf0844bb8a88623d9477a8
-      internalID: -679212098
+      spriteID: add9bb6e8d651114eb04473b9845e204
+      internalID: -1394310075
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RatonNuevo_1
+      name: ratas_1
       rect:
         serializedVersion: 2
-        x: 109
-        y: 257
-        width: 93
-        height: 96
+        x: 119
+        y: 287
+        width: 90
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e3a4492c7e008e41b62498faf3ae20a
-      internalID: 54315398
+      spriteID: aa1c2467b8b3d77488c90ea6d8ef8def
+      internalID: 490859636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RatonNuevo_2
+      name: ratas_2
       rect:
         serializedVersion: 2
-        x: 198
-        y: 254
-        width: 95
-        height: 94
+        x: 226
+        y: 279
+        width: 91
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b8c7f3d2fc7a794eb83281a9672512b
-      internalID: -1130440941
+      spriteID: 84b602dfca9f62547b11889e6822a28b
+      internalID: -1742554719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RatonNuevo_3
+      name: ratas_3
       rect:
         serializedVersion: 2
-        x: 291
-        y: 254
-        width: 93
-        height: 96
+        x: 330
+        y: 277
+        width: 91
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,146 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 076789fcd2585964dae35660ae2b5878
-      internalID: 2060017966
+      spriteID: 895356d294368444b915101a3afa0306
+      internalID: -784388019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RatonNuevo_4
+      name: ratas_4
       rect:
         serializedVersion: 2
-        x: 63
-        y: 162
+        x: 16
+        y: 189
+        width: 81
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a42d37407d36774291534046f6e11de
+      internalID: 1676794228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratas_5
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 190
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102bde9380b3fb54288d1ef2e552b0fb
+      internalID: -1141704391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratas_6
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 179
+        width: 87
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbd756dbb7935247bee8b02b129f01c
+      internalID: -682544022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratas_7
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 190
+        width: 90
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b622f0282e84db46a9f2d9892edaf39
+      internalID: 282214958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratas_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 107
+        width: 85
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4df165fe56885444a853e52bdca43d7
+      internalID: -1006132249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratas_9
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 103
+        width: 75
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065d13fabf7a40b47b6889dcdbf9095a
+      internalID: 164232693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratas_10
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 94
         width: 83
-        height: 90
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,19 +329,61 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17ae8f77a83ecc941b242cfe31ff6ee8
-      internalID: -991475935
+      spriteID: f558072261043c1468290cf2799f6fbd
+      internalID: -1440853044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RatonNuevo_5
+      name: ratas_11
       rect:
         serializedVersion: 2
-        x: 156
-        y: 162
-        width: 82
+        x: 9
+        y: 10
+        width: 91
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f3465e4fd53d54087997fd135ad29b
+      internalID: 355875319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratas_12
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 9
+        width: 123
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51c81553058ca849917ce067c2bbab1
+      internalID: -1525546061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratas_13
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 6
+        width: 84
         height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -224,176 +392,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c042ed3699ab3944abdbd01bf6ba684
-      internalID: 514437015
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RatonNuevo_6
-      rect:
-        serializedVersion: 2
-        x: 242
-        y: 157
-        width: 92
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5137b0f2056a66d4c8960b70571f3d02
-      internalID: -1430804168
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RatonNuevo_7
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 82
-        width: 93
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 317548c5bff90e14299b9f029f1cba8e
-      internalID: -1479068465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RatonNuevo_8
-      rect:
-        serializedVersion: 2
-        x: 99
-        y: 78
-        width: 89
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aa2511634471fc1488f9c292691b78b1
-      internalID: -1555590536
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RatonNuevo_9
-      rect:
-        serializedVersion: 2
-        x: 183
-        y: 81
-        width: 80
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7519ba1929cc6f44cafdfa2ab6866912
-      internalID: 1881027230
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RatonNuevo_10
-      rect:
-        serializedVersion: 2
-        x: 263
-        y: 81
-        width: 87
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0c452881f1766bb47ac2769bb55916e7
-      internalID: -1701434433
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RatonNuevo_11
-      rect:
-        serializedVersion: 2
-        x: 294
-        y: 9
-        width: 87
-        height: 85
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b7248734f321bdc4db0ebce3ffb4e5c8
-      internalID: 2033823078
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RatonNuevo_12
-      rect:
-        serializedVersion: 2
-        x: 54
-        y: 0
-        width: 92
-        height: 74
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 87b9a8c7079dc324c8a382286a5ebf67
-      internalID: 1588898642
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RatonNuevo_13
-      rect:
-        serializedVersion: 2
-        x: 164
-        y: 1
-        width: 123
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 65b680a34f54cd64c8d074cfde5ca93b
-      internalID: 1566898619
+      spriteID: f3ce7275cbbd26a4ab173ac124a551ed
+      internalID: 559242343
       vertices: []
       indices: 
       edges: []
@@ -409,20 +409,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      RatonNuevo_0: -679212098
-      RatonNuevo_1: 54315398
-      RatonNuevo_10: -1701434433
-      RatonNuevo_11: 2033823078
-      RatonNuevo_12: 1588898642
-      RatonNuevo_13: 1566898619
-      RatonNuevo_2: -1130440941
-      RatonNuevo_3: 2060017966
-      RatonNuevo_4: -991475935
-      RatonNuevo_5: 514437015
-      RatonNuevo_6: -1430804168
-      RatonNuevo_7: -1479068465
-      RatonNuevo_8: -1555590536
-      RatonNuevo_9: 1881027230
+      ratas_0: -1394310075
+      ratas_1: 490859636
+      ratas_10: -1440853044
+      ratas_11: 355875319
+      ratas_12: -1525546061
+      ratas_13: 559242343
+      ratas_2: -1742554719
+      ratas_3: -784388019
+      ratas_4: 1676794228
+      ratas_5: -1141704391
+      ratas_6: -682544022
+      ratas_7: 282214958
+      ratas_8: -1006132249
+      ratas_9: 164232693
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

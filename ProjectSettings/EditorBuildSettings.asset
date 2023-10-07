@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level2.unity
     guid: 560f6f6f58584504c8b25c0a033ce558
+  - enabled: 1
+    path: Assets/Scenes/Continuara.unity
+    guid: 504b17de7baf5174ab4d54cc73fb1828
   m_configObjects: {}

@@ -147,30 +147,11 @@ public class ItemCollector : MonoBehaviour
 
         else if (collision.gameObject.CompareTag("Entrada"))
         {
-            PlayerPrefs.SetInt("Vidas",playerLife.lifes);
-            PlayerPrefs.SetInt("pescados",fishes);
-            PlayerPrefs.SetString("Llave",keyText.text);
-            PlayerPrefs.SetString("Mapa",mapText.text);
+            PlayerPrefs.SetInt("Vidas", playerLife.lifes);
+            PlayerPrefs.SetInt("pescados", fishes);
+            PlayerPrefs.SetString("Llave", keyText.text);
+            PlayerPrefs.SetString("Mapa", mapText.text);
             SceneManager.LoadScene("Level2");
         }
-
-        
-
     }
-    //private void OnCollisionStay2D(Collision2D collision)
-    //{
-
-    //    if (collision.gameObject.tag == "Maquina")
-    //    {
-    //        SpriteRenderer spriteRenderer = collision.gameObject.GetComponent<SpriteRenderer>();
-    //        spriteMaquina = spriteRenderer.sprite.name;
-    //        if (spriteMaquina == "On (16x32)_0" || spriteMaquina == "On (16x32)_1" || spriteMaquina == "On (16x32)_0")
-    //        {
-    //            rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
-    //            playerLife.restarVida();
-    //        }
-    //    }
-
-    //}
-
 }

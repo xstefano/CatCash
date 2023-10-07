@@ -6,19 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class ItemsCollector02 : MonoBehaviour
 {
-    private bool collisionHandled = false;
     private bool collisionHandledTrap = false;
-    private bool collisionHandledAve = false;
     private bool collisionHandledCierra = false;
     private bool collisionHandledBlink = false;
-    private float dirX = -1f;
     private float moveSpeed = 3.7f;
     private Rigidbody2D rb;
     private int fishes = 0;
 
 
-    [SerializeField] private GameObject key;
-    [SerializeField] private GameObject map;
     [SerializeField] private TextMesh message;
     [SerializeField] private Text fishesText;
     [SerializeField] private Text keyText;
@@ -29,12 +24,11 @@ public class ItemsCollector02 : MonoBehaviour
     {
         playerLife = GetComponent<PlayerFiles02>();
         playerLife.lifes = PlayerPrefs.GetInt("Vidas");
-      //  lifesText.text = ": " + lifes.ToString();
         fishes = PlayerPrefs.GetInt("pescados");
         fishesText.text ="Pescado:  " + fishes.ToString();
         Debug.Log(PlayerPrefs.GetInt("pescados"));
-        keyText.text = PlayerPrefs.GetString("Mapa");
-        mapText.text = PlayerPrefs.GetString("Llave");
+        keyText.text = "0";
+        mapText.text = "0";
         rb = GetComponent<Rigidbody2D>();
       
     }
@@ -46,19 +40,7 @@ public class ItemsCollector02 : MonoBehaviour
         Collider2D[] colliders = Physics2D.OverlapBoxAll(collider.bounds.center, collider.bounds.size, 0f);
         foreach (Collider2D col in colliders)
         {
-            if (col.gameObject.CompareTag("Maquina"))
-            {
-                SpriteRenderer spriteRenderer = col.gameObject.GetComponent<SpriteRenderer>();
-                string spriteName = spriteRenderer.sprite.name;
-                // Realiza acciones basadas en la colisi n, por ejemplo:
-                if (spriteName == "On (16x32)_0" || spriteName == "On (16x32)_1" || spriteName == "On (16x32)_2")
-                {
-                    rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
-                    collisionHandled = true;
-                }
-
-            }
-            else if (col.gameObject.CompareTag("Trap"))
+            if (col.gameObject.CompareTag("Trap"))
             {
                 rb.velocity = new Vector2(-20.0f * moveSpeed, rb.velocity.y);
                 collisionHandledTrap = true;
@@ -68,10 +50,6 @@ public class ItemsCollector02 : MonoBehaviour
             {
                 playerLife.restarVida();
                 transform.position = new Vector3(-0.5f, -0.29f, 0f);
-            }
-            else if (col.gameObject.CompareTag("Ave"))
-            {
-                collisionHandledAve = true;
             }
             else if (col.gameObject.CompareTag("Cierra"))
             {
@@ -86,30 +64,12 @@ public class ItemsCollector02 : MonoBehaviour
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Maquina"))
-        {
-            if (collisionHandled)
-            {
-                collisionHandled = false;
-                playerLife.restarVida();
-            }
-
-        }
         if (collision.gameObject.CompareTag("Trap"))
         {
             if (collisionHandledTrap)
             {
                 collisionHandledTrap = false;
                 playerLife.restarVida();
-            }
-        }
-        if (collision.gameObject.CompareTag("Ave"))
-        {
-            if (collisionHandledAve)
-            {
-                collisionHandledAve = false;
-                playerLife.restarVida();
-                //GetComponent<RespawnManager>().ReaparecerPersonajeAve();
             }
         }
 
@@ -154,59 +114,18 @@ public class ItemsCollector02 : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Map"))
+        if (collision.gameObject.CompareTag("Final"))
         {
             collectionSoundEffect.Play();
-            Destroy(collision.gameObject);
-            mapText.text = $":1";
-        }
-        else if (collision.gameObject.CompareTag("Key"))
-        {
-            collectionSoundEffect.Play();
-            Destroy(collision.gameObject);
-            keyText.text = $":1";
-        }
-        else if (collision.gameObject.CompareTag("Final"))
-        {
-            collectionSoundEffect.Play();
-            Destroy(collision.gameObject);
-            map.GetComponent<SpriteRenderer>().enabled = true;
-            key.GetComponent<SpriteRenderer>().enabled = true;
             message.GetComponent<MeshRenderer>().enabled = true;
+            Destroy(collision.gameObject);
 
-            Rigidbody2D mapRigidbody = map.GetComponent<Rigidbody2D>();
-            Rigidbody2D keyRigidbody = key.GetComponent<Rigidbody2D>();
-
-            mapRigidbody.bodyType = RigidbodyType2D.Dynamic;
-            keyRigidbody.bodyType = RigidbodyType2D.Dynamic;
+            Invoke("CargarEscena", 6.5f); 
         }
-
-        else if (collision.gameObject.CompareTag("Entrada"))
-        {
-            PlayerPrefs.SetInt("Vidas", playerLife.lifes);
-            PlayerPrefs.SetInt("pescados", fishes);
-            PlayerPrefs.SetString("Llave", keyText.text);
-            PlayerPrefs.SetString("Mapa", mapText.text);
-            SceneManager.LoadScene("Level2");
-        }
-
-
-
     }
-    //private void OnCollisionStay2D(Collision2D collision)
-    //{
 
-    //    if (collision.gameObject.tag == "Maquina")
-    //    {
-    //        SpriteRenderer spriteRenderer = collision.gameObject.GetComponent<SpriteRenderer>();
-    //        spriteMaquina = spriteRenderer.sprite.name;
-    //        if (spriteMaquina == "On (16x32)_0" || spriteMaquina == "On (16x32)_1" || spriteMaquina == "On (16x32)_0")
-    //        {
-    //            rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
-    //            playerLife.restarVida();
-    //        }
-    //    }
-
-    //}
-
+    private void CargarEscena()
+    {
+        SceneManager.LoadScene("Continuara");
+    }
 }

@@ -1089,7 +1089,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b9da22ba91efacd44af51325d31008e4, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.025
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1531,7 +1531,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 481, y: 171.48999}
+  m_AnchoredPosition: {x: 431, y: 162.29999}
   m_SizeDelta: {x: 88.7319, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &392977359
@@ -1767,7 +1767,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 481, y: 221.04}
+  m_AnchoredPosition: {x: 431, y: 221.04}
   m_SizeDelta: {x: 88.7319, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &411992422
@@ -2388,7 +2388,10 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 577830675}
-  m_Text: mensaje
+  m_Text: "\xA1Prep\xE1rate para una emocionante \naventura llena de intriga y sorpresas!
+    \nLa b\xFAsqueda de Remy est\xE1 por comenzar, \ny tu valent\xEDa ser\xE1 clave
+    para resolver \neste misterio en Felinovia. \n\xA1Adelante, Whisker, el destino
+    te espera! \U0001F43E\U0001F5DD\U0001F31F"
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -2401,7 +2404,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: e331846360b4af44ebda40f4a01d3fd3, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4280295458
 --- !u!23 &577830677
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2452,8 +2455,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 577830675}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 34.799, y: 3.506, z: -8.338919}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalPosition: {x: 32.797, y: 3.769, z: -8.338919}
+  m_LocalScale: {x: 0.07, y: 0.07, z: 0.07}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3519,6 +3522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b237460c8e8377468d484f02d9af92a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lifes: 5
   vidaText: {fileID: 411992422}
   deathSoundEffect: {fileID: 750272669}
 --- !u!82 &750272667
@@ -4523,7 +4527,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 398.49005, y: 95.399994}
+  m_AnchoredPosition: {x: 345, y: 95.399994}
   m_SizeDelta: {x: 48.38, y: 48.38}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1029360385
@@ -6066,7 +6070,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4343527246573924, guid: 7451ef01e53127446b9d7406220542f6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 4343527246573924, guid: 7451ef01e53127446b9d7406220542f6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -17292,7 +17296,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -333.37, y: 237.5}
+  m_AnchoredPosition: {x: -256, y: 230}
   m_SizeDelta: {x: 424.2694, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1650657863
@@ -17372,7 +17376,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 399, y: 230}
+  m_AnchoredPosition: {x: 349.6, y: 230}
   m_SizeDelta: {x: 49.409, y: 47.921}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1669486233
@@ -17734,7 +17738,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 490, y: 104.59}
+  m_AnchoredPosition: {x: 431, y: 95.4}
   m_SizeDelta: {x: 88.7319, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1785099401
@@ -18189,7 +18193,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1935581967}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -18622,7 +18626,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 399.51007, y: 162.29999}
+  m_AnchoredPosition: {x: 345, y: 162.29999}
   m_SizeDelta: {x: 48.38, y: 48.38}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2068354315
