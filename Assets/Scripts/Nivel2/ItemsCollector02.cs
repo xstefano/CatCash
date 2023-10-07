@@ -9,6 +9,8 @@ public class ItemsCollector02 : MonoBehaviour
     private bool collisionHandled = false;
     private bool collisionHandledTrap = false;
     private bool collisionHandledAve = false;
+    private bool collisionHandledCierra = false;
+    private bool collisionHandledBlink = false;
     private float dirX = -1f;
     private float moveSpeed = 3.7f;
     private Rigidbody2D rb;
@@ -71,6 +73,14 @@ public class ItemsCollector02 : MonoBehaviour
             {
                 collisionHandledAve = true;
             }
+            else if (col.gameObject.CompareTag("Cierra"))
+            {
+                collisionHandledCierra = true;
+            }
+            else if (col.gameObject.CompareTag("Blink"))
+            {
+                collisionHandledBlink = true;
+            }
         }
 
     }
@@ -99,9 +109,26 @@ public class ItemsCollector02 : MonoBehaviour
             {
                 collisionHandledAve = false;
                 playerLife.restarVida();
-                GetComponent<RespawnManager>().ReaparecerPersonajeAve();
+                //GetComponent<RespawnManager>().ReaparecerPersonajeAve();
+            }
+        }
 
-
+        if (collision.gameObject.CompareTag("Cierra"))
+        {
+            if (collisionHandledCierra)
+            {
+                collisionHandledCierra = false;
+                playerLife.restarVida();
+                //GetComponent<RespawnManager>().ReaparecerPersonajeAve();
+            }
+        }
+        if (collision.gameObject.CompareTag("Blink"))
+        {
+            if (collisionHandledBlink)
+            {
+                collisionHandledBlink = false;
+                playerLife.restarVida();
+                //GetComponent<RespawnManager>().ReaparecerPersonajeAve();
             }
         }
     }

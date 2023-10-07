@@ -16,6 +16,8 @@ TagManager:
   - DogMeta
   - Entrada
   - Ventilador
+  - Cierra
+  - Blink
   layers:
   - Default
   - TransparentFX
