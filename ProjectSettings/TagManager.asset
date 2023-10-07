@@ -18,6 +18,7 @@ TagManager:
   - Ventilador
   - Cierra
   - Blink
+  - Inicio2
   layers:
   - Default
   - TransparentFX

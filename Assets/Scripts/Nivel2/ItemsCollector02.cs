@@ -94,8 +94,6 @@ public class ItemsCollector02 : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
-
         if (collision.gameObject.CompareTag("Fish"))
         {
             collectionSoundEffect.Play();
@@ -114,6 +112,12 @@ public class ItemsCollector02 : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.gameObject.CompareTag("Inicio2"))
+        {
+            collectionSoundEffect.Play();
+            Destroy(collision.gameObject);
+            Raton.debeMoverse = true;
+        }
         if (collision.gameObject.CompareTag("Final"))
         {
             collectionSoundEffect.Play();

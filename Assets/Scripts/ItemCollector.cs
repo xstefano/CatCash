@@ -90,9 +90,6 @@ public class ItemCollector : MonoBehaviour
             {
                 collisionHandledAve = false;
                 playerLife.restarVida();
-                GetComponent<RespawnManager>().ReaparecerPersonajeAve();
-
-
             }
         }
     }

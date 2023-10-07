@@ -8,7 +8,7 @@ public class Raton : MonoBehaviour
     public SpriteRenderer spriteRenderer;
     public GameObject raton;
 
-    private bool debeMoverse = true;
+    public static bool debeMoverse = false;
 
     private void Start()
     {
